@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
-        android:text="No id"
+        android:text="아이디가 없으신가요?"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
