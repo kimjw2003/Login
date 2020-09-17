@@ -14,9 +14,9 @@ class SignupActivity : AppCompatActivity() {
         signup_Btn.setOnClickListener {
             var intent = Intent(this, SignupActivity::class.java)
 
-            if(signUp_pw == signUp_repw){
+            if (signUp_pw == signUp_repw) {
                 startActivity(intent)
-            }else{
+            } else {
                 Toast.makeText(this, "비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show()
             }
         }
